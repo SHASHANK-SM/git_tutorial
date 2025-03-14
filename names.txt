@@ -1,0 +1,18 @@
+steps for adding a file in a repository through git
+
+1.mkdir folder_name //creates a folder in current dir
+2.git init           //initialize the git repo
+3.git status          //To check the status whether anything present in folder to add
+4.git add file_name.exe  //Helps to add the file to commit
+5.vi file_name.exe       //used to add content in a file
+6.cat file_name.exe        //used to fetch the content in a file
+7.rm -rf file_name.exe       //used to delete a repo
+8.git add .                  //used to set with changes
+7.git commit -m "------"    //helps to commit the changes
+8.git log                      //used to look the operation done
+9.git stash                  //used when u don't want to loose the content and also not to commit
+9.git reset stash -----------*the code of logged data  //helps to remove the discarded file
+10.git restore stash    //helps to restore the undo thing
+11.git remote add origin https://------//repodir   //used to fetch the destiny of a file to make a repo
+12. git remote -v  //helps to know the condition (fetch & push)
+13. git push origin master/main  //used to push the file and commit in a repo
